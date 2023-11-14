@@ -1,0 +1,32 @@
+.wrapper {
+  height: calc(100vh - var(--navbar-height));
+  display: flex;
+  align-items: center;
+}
+
+.container {
+  padding: 0 26px;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.image {
+  width: 714px;
+  height: 520px;
+}
+
+.infoTitle {
+  font: var(--font-l);
+  font-weight: 700;
+  text-align: center;
+  margin-bottom: 46px;
+}
+
+.buttonBlock {
+  width: 330px;
+  margin: 0 auto;
+  display: flex;
+  flex-direction: column;
+  row-gap: 30px;
+}
